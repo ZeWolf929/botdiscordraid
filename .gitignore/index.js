@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 const {Client, Attachment} = require("discord.js")
 const client = new Discord.Client()
-const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const fs = require('fs')
 const ytdl = require('ytdl-core');
